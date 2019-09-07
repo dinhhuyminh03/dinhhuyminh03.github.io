@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import'https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css';
+/* * */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex
+    font-family: "Montserrat", sans-serif;
+    /* background-color: #24252A; */
+}
+html, body {
+    height: 100%;
+}
+#container {
+    min-height: 100%;
+}
+/* main */
+main{
+    overflow: auto;
+    padding-bottom: 100px;
+    height: 1000px;
+}
+/* footer */
+#footer {
+    background-color: #24252A;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    clear: both;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+}
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #24252A;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    transition: 0.5s all;
+}
+.fb{
+    background: #2980b9;
+}
+.tw{
+    background: #3498db;
+}
+.yb{
+    background: #e74c3c;
+}
+.wp{
+    background: #27ae60;
+}
+.im{
+    background: #e67e22;
+}
+.box a:hover{
+    margin-top: -10px
+}
