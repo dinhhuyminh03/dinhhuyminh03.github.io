@@ -1,4 +1,4 @@
-﻿# dinhhuyminh03.github.io
+﻿# Movie Center
 
 This is a website which replicates a cinema's website that I built with a little help from friends back when I was in high school.
 
